@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 
-import { CenteredHeader } from './App.js'
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <CenteredHeader>Hi! I'm Venkatraman. I'm a software developer based in India.</CenteredHeader>
-        <p>
+         <p>
           I'm comfortable throughout the stack, but my passion lies in the front end, at the intersection of code and design. I currently build software for the AI powered ERP product HUE at the <a href='https://www.ivtlinfoview.com/'>Infoview</a>.
         </p>
         <p>
