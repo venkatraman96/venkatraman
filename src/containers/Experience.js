@@ -141,7 +141,6 @@ class Experience extends Component {
         <div id="contact-section" className="contact-section section">
             <h2 className="section-title">Get in Touch</h2>
             <div className="intro">
-                <img className="profile-image" src="assets/images/profile-image.png" alt=""/>
                 <div className="dialog">
                     <p>I'm currently taking on freelance work. I am looking for new opportunities at the moment, however, feel free to reach out to me for any kind of information.
 </p>
