@@ -29,12 +29,12 @@ import {
 
 import styles from "../../assets/jss/material-dashboard-react/views/dashboardStyle.js";
 
-import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
+import FusionTheme from 'malphascharts/themes/fusioncharts.theme.fusion';
 import ReactFC from 'react-fusioncharts';
-import FusionCharts from 'fusioncharts';
+import FusionCharts from 'malphascharts';
 import {distictData} from '../../variables/data';
-import Maps from 'fusioncharts/fusioncharts.maps';
-import Tamilnadu from 'fusioncharts/maps/fusioncharts.tamilnadu';
+import Maps from 'malphascharts/fusioncharts.maps';
+import Tamilnadu from 'malphascharts/maps/fusioncharts.tamilnadu';
 
 const useStyles = makeStyles(styles);
 
