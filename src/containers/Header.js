@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router'
 import styled from 'styled-components';
 
 const ProfileImage = styled.img`
@@ -9,23 +8,8 @@ const ProfileImage = styled.img`
   border: 4px solid white;
 `;
 
-const ProfileTitle = styled.h1`
-  color: black;
-`
 
-const HeaderDiv = styled.div`
-  padding-top: 5vh;
-  text-align: center;
-  font-family: 'Zilla Slab Highlight', sans-serif;
-  color: black;
-`;
 
-const NavLink = styled(Link)`
-  display: inline-flex;
-  margin: 0 5px;
-  color: black;
-  font-size: 16px;
-`
 
 
 class Header extends Component {
@@ -34,6 +18,7 @@ class Header extends Component {
       <div className="header">
       <div className="top-bar container-fluid">
           <div className="actions">
+              <a className="btn d-none d-md-inline-block" href="/covid">TRACK TN-NCOV19</a>
               <a className="btn d-none d-md-inline-block" href="mailto:madurai.mvr@gmail.com"><svg className="svg-inline--fa fa-paper-plane fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="paper-plane" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"></path></svg> Hire Me</a>
               <a className="btn" href={require('../assets/Venkatraman_Resume.pdf')} download><svg className="svg-inline--fa fa-download fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg>Download My Resume</a>
           </div>
